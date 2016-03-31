@@ -1,12 +1,7 @@
 # Description:
 ###### Object Oriented Programming
   - This is to accomodate my friends at school to get a better undertanding of the material
-    
 
-    
-## References:
-* All sites and references have been cited within the scripts and tagged as 'src'.
-* Special thanks to Prof. Kumari Gurusamy :)
     
 ## Terms of Use:
 * Anyone and any party is free to use what I have written and added in this repository. 
