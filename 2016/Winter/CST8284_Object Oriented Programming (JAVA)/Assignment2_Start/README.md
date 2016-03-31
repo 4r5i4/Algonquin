@@ -1,5 +1,5 @@
 # Description:
-A [JavaFX](http://docs.oracle.com/javase/8/javafx/get-started-tutorial/jfx-overview.htm#JFXST784) browser application
+###### A [JavaFX](http://docs.oracle.com/javase/8/javafx/get-started-tutorial/jfx-overview.htm#JFXST784) browser application
   - Main class: 
     - MyGUI.java (under src/)
   - features: 
