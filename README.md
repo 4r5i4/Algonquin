@@ -1,7 +1,7 @@
 # Description:
 * This is a public repository of Arsia Ardalan (<marsian@protonmail.com>) created in Winter 2016
 * To hold labs, assignments, study material, and projects at Algonquin College 
-* You can find the Winter 2016 courses [here](https://github.com/ArsiaArdalan/Algonquin/tree/master/2016/Winter)
+* You can find the Winter [2016](https://github.com/ArsiaArdalan/Algonquin/tree/master/2016) courses [here](https://github.com/ArsiaArdalan/Algonquin/tree/master/2016/Winter)
 
 ## Notes:
 * Follow, if you like.
