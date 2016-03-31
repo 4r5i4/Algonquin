@@ -16,10 +16,10 @@ A [JavaFX](http://docs.oracle.com/javase/8/javafx/get-started-tutorial/jfx-overv
   - How to put disable bookmark duplicates in the bookmark menu
 
 ### Things I didn't have time to do:
-  - [] allow user to change homepage
-  - [] allow user to save history 
-  - [] allow user to open tabs
-  - [] allow keyboard shortcuts e.g. CTRL+c, CTRL+L
+  - [ ] allow user to change homepage
+  - [ ] allow user to save history 
+  - [ ] allow user to open tabs
+  - [ ] allow keyboard shortcuts e.g. CTRL+c, CTRL+L
     
  
     
