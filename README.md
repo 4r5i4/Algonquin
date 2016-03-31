@@ -1,5 +1,5 @@
 # Description:
-* This is a public repository of [Arsia Ardalan](marsian@protonmail.com) created in Winter 2016
+* This is a public repository of Arsia Ardalan (><marsian@protonmail.com><) created in Winter 2016
 * To hold labs, assignments, study material, and projects at Algonquin College 
 
 ## Notes:
