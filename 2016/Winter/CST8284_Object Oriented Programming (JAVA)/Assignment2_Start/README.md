@@ -23,12 +23,12 @@ A [JavaFX](http://docs.oracle.com/javase/8/javafx/get-started-tutorial/jfx-overv
     
     
 ## References:
-    Thanks to Prof. Torunski at Algonquin College
+* Thanks to Prof. Eric Torunski at Algonquin College
     
 ## Terms of Use:
-	- Anyone and any party is free to use what I have written and added in this repository. 
-    - With that being said, plagarism is a serious issue, 
-    so if you copy and paste this and get caught, then the burden is on you only. 
-    I'm not responsible for anything.
+* Anyone and any party is free to use what I have written and added in this repository. 
+* With that being said, plagarism is a serious issue, 
+  - if you copy and paste this and get caught, then the burden is on you only. 
+  - Therefore I'm not responsible for anything.
     
 	
