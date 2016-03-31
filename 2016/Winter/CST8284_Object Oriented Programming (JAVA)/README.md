@@ -1,6 +1,6 @@
 # Description:
 ###### Object Oriented Programming
-  - This is to accomodate my friends at school to get a better undertanding of the material
+  - This is to accomodate my friends at school with a better undertanding of the material
 
     
 ## Terms of Use:
