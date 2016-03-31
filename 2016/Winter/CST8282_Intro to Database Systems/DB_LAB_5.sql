@@ -1,4 +1,18 @@
-#Author: A. Ardalan
+/*######################  DESCRPITON  ########################
+ -- Author: A. Ardalan
+ -- Last Modified: 	* Feb 2016
+ -- filename: DB_LAB5.sql
+*/
+/*######################### NOTES ############################
+Script notes:
+
+ Description to lines or script statements are placed BEFORE that 
+ line and denoted by '##'
+
+ Results or expected values are denoted AFTER the statement and 
+ denoted by '#'
+*/
+
 
 ##############################################################
 #Question 1.
@@ -181,3 +195,4 @@ GROUP BY actor.actor_id;
 
     
 		
+-- eof: DB_LAB5.sql
