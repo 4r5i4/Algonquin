@@ -1,0 +1,271 @@
+
+h1, h3, h4, h5, h6,
+body, div, p, img{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+#wp{
+    font-size: 20px;
+    text-shadow: 12px 10px 10px #FFE645;
+}
+
+
+h2 {
+    color: #ffff66;
+}
+
+#wrapper{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: auto;
+    border: 1px solid #FFFFFF;
+}
+header{
+    margin: 0px;
+    width: auto;
+    height: 200px;
+    border-bottom: 1px solid #FFFFFF;
+}
+header img{
+    float:left;
+}
+header #title{
+    float: left;
+    width:445px;
+    margin-right: 5px;
+}
+header h1{
+    margin: 5px;
+    text-align: right;
+    margin-bottom: 5px;
+}
+header h2{
+    text-align: right;
+    float: right;
+}
+nav{
+    float: left;
+    width: 150px;
+    height: 850px;
+    border-right: 1px solid #FFFFFF;
+}
+nav #menuItems{
+    float:right;
+    margin-right: 5px;
+}
+nav li{
+    display: inline;
+    height:60px;
+    margin-right: 20px;
+    text-align:right;
+    font-size: 16pt;
+}
+nav a, a:visited{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+aside{
+    width: 250px;
+    height: 850px;
+    margin: 0px; 
+    float: right;
+    border-left: 1px solid #FFFFFF;
+}
+aside h2, h3{
+    text-align:center;
+    padding: 5px;
+}
+aside img{
+    margin-left:10px;
+    margin-right:10px;
+    border: 1px solid #FFFFFF;
+}
+aside p{
+    margin: 10px;
+    text-align: justify;
+}
+aside hr {
+    margin: 10px;
+}
+.main{
+    width:450px;
+    padding: 10px;
+    float: left;
+}
+.main h1{
+    color: #ffff66;
+    text-align: left;
+}
+
+.main h3{
+    color: #ffff66;
+    text-align: left;
+    text-decoration: underline
+}
+
+#content{
+    border-bottom: 1px solid #ffff66;
+}
+.content_pic{
+    float:right;
+    border: 1px solid #ffff66;
+    margin-left: 10px;
+}
+
+#content p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: justify;
+    font-size: 11pt;
+    
+}
+
+
+.event
+{
+   text-shadow: 1px 1px #B00000 ;
+   
+}
+
+footer p{
+    text-align:center;
+    font-size: 10pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+table td{
+    padding:5px;
+}
+
+
+#logout{
+    text-align: center;
+    color: #ff2036;
+}
+
+
+#wrap {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: 0 auto;
+    max-width: 550px;
+
+}
+
+#wrap h1{
+    color: #068eff;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+
+}
+
+
+
+#sessionID{
+    color: #8d8f8d;
+    font-family: Consolas;
+}
+
+
+
+.tableButton {
+    background-color:#3a6cc2;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    border-radius:7px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Verdana;
+    font-size:17px;
+    padding:5px 26px;
+    text-decoration:none;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.tableButton:hover {
+    background-color:#242b80;
+}
+.tableButton:active {
+    position:relative;
+    top:1px;
+}
+
+.tableLists{
+    border: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+.error-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #dc4504;
+
+}
+
+.norm-input{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+
+
+}
+
+
+.addedCustomer {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #05ff82;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+
+}
+
+.failedCustomer {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #dc4504;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+}
+
