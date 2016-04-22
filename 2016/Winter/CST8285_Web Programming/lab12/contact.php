@@ -176,9 +176,14 @@
 					<form name="frmNewsletter" id="frmNewsletter" method="post" action="contact.php" enctype="multipart/form-data">
 
                         <table>
-                            <tr>
+							<tr>
+								<td></td>
+								<td><?php if ($is_submitted && $error['fname']) echo "<span class='error-text'>" . $emsg['fname'] .
+										"</span>"; ?></td>
+							</tr>
+							<tr>
                                 <td style="width: 120px;">First Name:</td>
-                                <td><input type="text" 
+                                <td><input type="text"
 									<?php
 									if ($is_submitted) {
 										if ($error['fname']) {
@@ -189,82 +194,77 @@
 										echo "value='$fname'"; }
 									else echo "class='norm-input'"; ?> name="customerfName" id="customerfName" size='35'></td>
                             </tr>
-                            <tr>
-                            	<td></td>
-                            	<td><?php if ($is_submitted && $error['fname']) echo "<span class='error-text'>" . $emsg['fname'] . 
-									"</span>"; ?></td>
-                            </tr>
-                            <tr>
+							<tr>
+								<td></td>
+								<td><?php if ($is_submitted && $error['lname']) echo "<span class='error-text'>" . $emsg['lname'] .
+										"</span>"; ?></td>
+							</tr>
+							<tr>
                                 <td>Last Name:</td>
-                                <td><input type="text"  
-									<?php if ($is_submitted) { if ($error['lname']) echo "class='error-input'"; 
+                                <td><input type="text"
+									<?php if ($is_submitted) { if ($error['lname']) echo "class='error-input'";
 									else echo "class='norm-input'"; echo "value='$lname'"; }
 									else echo "class='norm-input'"; ?> name="customerlName" id="customerlName" size='35'></td>
                             </tr>
-                            <tr>
-                            	<td></td>
-                            	<td><?php if ($is_submitted && $error['lname']) echo "<span class='error-text'>" . $emsg['lname'] . 
-									"</span>"; ?></td>
-                            </tr>
-                            <tr>
+							<tr>
+								<td></td>
+								<td><?php if ($is_submitted && $error['phone']) echo "<span class='error-text'>" . $emsg['phone'] .
+										"</span>"; ?></td>
+							</tr>
+							<tr>
                                 <td>Phone Number:</td>
-                                <td><input type="text"  
-									<?php if ($is_submitted) { if ($error['phone']) echo "class='error-input'";  
+                                <td><input type="text"
+									<?php if ($is_submitted) { if ($error['phone']) echo "class='error-input'";
 									else echo "class='norm-input'"; echo "value='$phone'"; }
 									else echo "class='norm-input'"; ?> name="phoneNumber" id="phoneNumber" size='35'></td>
                             </tr>
-                            <tr>
-                            	<td></td>
-                            	<td><?php if ($is_submitted && $error['phone']) echo "<span class='error-text'>" . $emsg['phone'] . 
-									"</span>"; ?></td>
-                            </tr>
-                            <tr>
+							<tr>
+								<td></td>
+								<td><?php if ($is_submitted && $error['email']) echo "<span class='error-text'>" . $emsg['email'] .
+										"</span>"; ?></td>
+							</tr>
+							<tr>
                                 <td>Email Address:</td>
-                                <td><input type="text"  
-									<?php if ($is_submitted) { if ($error['email']) echo "class='error-input'";  
+                                <td><input type="text"
+									<?php if ($is_submitted) { if ($error['email']) echo "class='error-input'";
 									else echo "class='norm-input'"; echo "value='$email'"; }
 									else echo "class='norm-input'"; ?> name="emailAddress" id="emailAddress" size='35'></td>
                             </tr>
-                            <tr>
-                            	<td></td>
-                            	<td><?php if ($is_submitted && $error['email']) echo "<span class='error-text'>" . $emsg['email'] . 
-									"</span>"; ?></td>
-                            </tr>
-                            <tr>
+							<tr>
+								<td></td>
+								<td><?php if ($is_submitted && $error['uname']) echo "<span class='error-text'>" . $emsg['uname'] .
+										"</span>"; ?></td>
+							</tr>
+							<tr>
                                 <td>Username:</td>
-                                <td><input type="text"  
-									<?php if ($is_submitted) { if ($error['uname']) echo "class='error-input'";  
+                                <td><input type="text"
+									<?php if ($is_submitted) { if ($error['uname']) echo "class='error-input'";
 									else echo "class='norm-input'"; echo "value='$uname'"; }
 									else echo "class='norm-input'"; ?> name="username" id="username" size='20'>
                             </tr>
-                            <tr>
-                            	<td></td>
-                            	<td><?php if ($is_submitted && $error['uname']) echo "<span class='error-text'>" . $emsg['uname'] . 
-									"</span>"; ?></td>
-                            </tr>
-                            <tr>
+							<tr>
+								<td></td>
+								<td><?php if ($is_submitted && $error['refer']) echo "<span class='error-text'>" . $emsg['refer'] .
+										"</span>"; ?></td>
+							</tr>
+							<tr>
                                 <td>How did you<br>hear about us?</td>
                                 <td>
-                                   <select name="referral"  
-									<?php if ($is_submitted) { if ($error['refer']) echo "class='error-input'";  
+                                   <select name="referral"
+									<?php if ($is_submitted) { if ($error['refer']) echo "class='error-input'";
 									else echo "class='norm-input'"; echo "value='$refer'"; }
 									else echo "class='norm-input'"; ?> size="1">
                                       <option>Select referer</option>
-                                      <option value="newspaper" 
+                                      <option value="newspaper"
 									  	<?php if ($is_submitted && $refer=='newspaper') echo 'selected'; ?>>Newspaper</option>
-                                      <option value="radio" 
+                                      <option value="radio"
 									  	<?php if ($is_submitted && $refer=='radio') echo 'selected'; ?>>Radio</option>
-                                      <option value="tv" 
+                                      <option value="tv"
 									  	<?php if ($is_submitted && $refer=='tv') echo 'selected'; ?>>Television</option>
-                                      <option value="other" 
+                                      <option value="other"
 									  	<?php if ($is_submitted && $refer=='other') echo 'selected'; ?>>Other</option>
                                    </select>
                                 </td>
-                            </tr>
-                            <tr>
-                            	<td></td>
-                            	<td><?php if ($is_submitted && $error['refer']) echo "<span class='error-text'>" . $emsg['refer'] . 
-									"</span>"; ?></td>
                             </tr>
                             <tr>
                                 <td colspan='3'>

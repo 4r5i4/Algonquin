@@ -30,12 +30,15 @@ h2 {
     margin-bottom: auto;
     border: 1px solid #FFFFFF;
 }
+
+
 header{
     margin: 0px;
     width: auto;
     height: 200px;
     border-bottom: 1px solid #FFFFFF;
 }
+
 header img{
     float:left;
 }
@@ -58,10 +61,16 @@ nav{
     width: 150px;
     height: 850px;
     border-right: 1px solid #FFFFFF;
+
+
+
 }
 nav #menuItems{
     float:right;
     margin-right: 5px;
+
+
+
 }
 nav li{
     display: inline;
@@ -69,13 +78,15 @@ nav li{
     margin-right: 20px;
     text-align:right;
     font-size: 16pt;
+
+
 }
 nav a, a:visited{
-    color:#FFFFFF;
+    color: #9b00ff;
     text-decoration: none;
 }
 nav a:hover{
-    text-decoration: underline;
+    text-decoration: none;
 }
 aside{
     width: 250px;
@@ -119,6 +130,8 @@ aside hr {
 #content{
     border-bottom: 1px solid #ffff66;
 }
+
+
 .content_pic{
     float:right;
     border: 1px solid #ffff66;
@@ -231,14 +244,39 @@ table td{
     text-align: center;
 }
 
+#hashCol{
+    border: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    text-align: center;
+}
 
 .error-text{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #dc4504;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 0;
 
 }
+.error-input{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 0;
 
+}
 .norm-input{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -252,8 +290,8 @@ table td{
     color: #05ff82;
     font-size: 18px;
     margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 170px;
+    margin-right: 20px;
     margin-bottom: auto;
 
 }
@@ -263,9 +301,19 @@ table td{
     color: #dc4504;
     font-size: 18px;
     margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+    margin-left: 170px;
+    margin-right: 20px;
+    margin-bottom: auto;
 
 }
 
+
+.regularNote{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #ffbd15;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 170px;
+    margin-right: 20px;
+    margin-bottom: auto;
+}
